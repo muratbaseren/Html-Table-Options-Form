@@ -1,0 +1,138 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="visio.css"/>
+<title>
+FlowChart
+</title>
+<script type="text/javascript" language="javascript">
+function UpdateTooltip(){};
+function OnShapeClick(){};
+</script>
+
+<script src="gif_1.js" type="text/jscript" language="jscript"></script>
+
+<script type="text/jscript" language="jscript">
+	if(parent.isUpLevel)
+	{
+		location.replace(parent.g_FileList[parent.g_CurPageIndex].PriImage);
+	}
+</script>
+
+
+
+<script type="text/jscript" language="jscript">
+
+var pageID = 0;
+
+var isUpLevel = parent.isUpLevel;
+var OnShapeClick = null;
+if (!parent.isMac)
+{
+	OnShapeClick = parent.OnShapeClick;
+}
+
+var OnShapeKey = parent.OnShapeKey;
+var UpdateTooltip = parent.UpdateTooltip;
+var clickMenu = parent.clickMenu;
+var toggleMenuDiv = parent.toggleMenuDiv;
+var toggleMenuLink = parent.toggleMenuLink;
+var GoToPage = parent.GoToPage;
+
+
+if (parent.isUpLevel)
+{
+
+	if (parent.g_FirstPageToLoad != null && parent.g_FirstPageToLoad.length > 0)
+	{
+		if (parent.g_FileList[parent.g_CurPageIndex].PageID != pageID)
+		{
+			var fileEntry = parent.g_FileList[parent.g_CurPageIndex];
+			var fileToLoad = fileToLoad = fileEntry.PriImage;
+			if (fileEntry.SecImage.length > 0)
+			{
+				fileToLoad = fileEntry.SecImage;
+			}
+
+			location.replace(fileToLoad);
+		}
+
+		parent.g_FirstPageToLoad = null;
+	}
+
+
+	var viewMgr = new parent.CViewMgr();
+	parent.viewMgr = viewMgr;
+
+	viewMgr.SupportsDetails = true;
+	viewMgr.SupportsSearch = true;
+
+	viewMgr.put_Location = ViewMgrSetRasterLocation;
+	viewMgr.visBBoxLeft = 1.868412;
+	viewMgr.visBBoxRight = 6.891430;
+	viewMgr.visBBoxBottom = 3.246365;
+	viewMgr.visBBoxTop = 11.025289;
+	viewMgr.highlightDiv = null;
+}
+
+function load ()
+{
+	if(isUpLevel)
+	{
+		arrowdiv.innerHTML = '<img id="arrowgif" alt="Shows the location of the selected shape" src="arrow.gif"/>';
+
+		var pageIndex = parent.PageIndexFromID (pageID);
+		parent.CurPageUpdate (pageIndex);
+	}
+}
+
+function unload()
+{
+	if(isUpLevel)
+	{
+		viewMgr = null;
+		parent.viewMgr = null;
+	}
+}
+
+window.onload = load;
+window.onunload = unload;
+document.onclick = clickMenu;
+
+</script>
+</head>
+
+<body class="pageView" bgcolor="#FFFFFF">
+
+<div id=arrowdiv style="position:absolute;top:0;left:0;visibility:hidden;z-index:5">
+</div>
+
+<div id="menu1" onclick="clickMenu()" class="hlMenu">
+</div>
+
+<DIV id=RasterDiv>
+
+
+<center>
+  <IMG id="ConvertedImage" SRC="gif_1.gif" ALT="Basic" name=RasterImage BORDER="0" USEMAP="#visImageMap">
+</center>
+
+<MAP NAME="visImageMap">
+  <AREA shape="POLYGON" tabindex="1" ALT="END" origTitle="END" TITLE="END"  target="_top" COORDS=" 167,601 213,601 214,601 214,601 215,601 215,601 216,601 216,601 217,600 217,600 218,600 218,600 219,600 219,600 220,599 220,599 221,599 221,599 222,598 222,598 222,598 223,597 223,597 224,597 224,596 224,596 225,595 225,595 225,595 226,594 226,594 226,593 226,593 227,592 227,592 227,591 227,591 227,590 228,590 228,589 228,589 228,588 228,588 228,587 228,587 228,586 228,586 228,585 228,585 228,584 228,584 228,583 228,583 228,582 228,581 227,581 227,580 227,580 227,579 227,579 226,579 226,578 226,578 226,577 225,577 225,576 225,576 224,575 224,575 224,575 223,574 223,574 222,574 222,573 222,573 221,573 221,572 220,572 220,572 219,572 219,572 218,571 218,571 217,571 217,571 216,571 216,571 215,571 215,571 214,570 214,570 213,570 167,570 167,570 166,570 166,571 165,571 165,571 164,571 164,571 163,571 163,571 162,571 162,572 161,572 161,572 160,572 160,572 159,573 159,573 158,573 158,574 158,574 157,574 157,575 156,575 156,575 156,576 155,576 155,577 155,577 154,578 154,578 154,579 154,579 153,579 153,580 153,580 153,581 153,581 153,582 153,583 152,583 152,584 152,584 152,585 152,585 152,586 152,586 152,587 152,587 152,588 152,588 153,589 153,589 153,590 153,590 153,591 153,591 153,592 154,592 154,593 154,593 154,594 155,594 155,595 155,595 156,595 156,596 156,596 157,597 157,597 158,597 158,598 158,598 159,598 159,599 160,599 160,599 161,599 161,600 162,600 162,600 163,600 163,600 164,600 164,601 165,601 165,601 166,601 166,601 167,601 167,601" onmouseover="UpdateTooltip(this,0,17)" onfocus="UpdateTooltip(this,0,17)" onclick="return OnShapeClick(0,17);" onkeyup="OnShapeKey(0,17);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Stillendirme ekranda gösterilir.." origTitle="Stillendirme ekranda gösterilir.." TITLE="Stillendirme ekranda gösterilir.."  target="_top" COORDS=" 152,527 153,527 154,528 154,528 155,528 156,529 156,529 157,529 158,530 158,530 159,530 160,531 161,531 161,531 162,531 163,531 164,532 165,532 165,532 166,532 167,532 168,532 168,532 169,532 170,532 171,532 172,532 172,532 173,532 174,532 175,532 176,532 176,532 177,532 178,532 179,532 179,531 180,531 181,531 182,531 182,531 183,530 184,530 185,530 185,529 186,529 187,529 187,528 188,528 189,528 190,527 190,527 191,526 192,526 192,525 193,525 194,525 194,524 195,524 196,524 196,523 197,523 198,523 199,523 199,522 200,522 201,522 202,522 203,522 203,522 204,521 205,521 206,521 206,521 207,521 208,521 209,521 210,521 210,521 211,521 212,521 213,521 214,521 214,521 215,522 216,522 217,522 217,522 218,522 219,522 220,523 220,523 221,523 222,523 223,524 223,524 224,524 225,525 226,525 226,525 227,526 228,526 228,527 228,487 152,487 152,527" onmouseover="UpdateTooltip(this,0,15)" onfocus="UpdateTooltip(this,0,15)" onclick="return OnShapeClick(0,15);" onkeyup="OnShapeKey(0,15);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Seçili Template Design ayarları ile başlar.  (Program..." origTitle="Seçili Template Design ayarları ile başlar.  (Program..." TITLE="Seçili Template Design ayarları ile başlar.  (Program..."  target="_top" COORDS=" 266,259 388,259 388,183 266,183 266,259" onmouseover="UpdateTooltip(this,0,11)" onfocus="UpdateTooltip(this,0,11)" onclick="return OnShapeClick(0,11);" onkeyup="OnShapeKey(0,11);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Program klasöründeki seçilen Template’e ait XML dosyadan..." origTitle="Program klasöründeki seçilen Template’e ait XML dosyadan..." TITLE="Program klasöründeki seçilen Template’e ait XML dosyadan..."  target="_top" COORDS=" 0,219 122,219 122,174 0,174 0,219" onmouseover="UpdateTooltip(this,0,9)" onfocus="UpdateTooltip(this,0,9)" onclick="return OnShapeClick(0,9);" onkeyup="OnShapeKey(0,9);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Custom Design seçilirse.." origTitle="Custom Design seçilirse.." TITLE="Custom Design seçilirse.."  target="_top" COORDS=" 289,122 365,122 365,76 289,76 289,122" onmouseover="UpdateTooltip(this,0,6)" onfocus="UpdateTooltip(this,0,6)" onclick="return OnShapeClick(0,6);" onkeyup="OnShapeKey(0,6);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Template Design seçilirse.." origTitle="Template Design seçilirse.." TITLE="Template Design seçilirse.."  target="_top" COORDS=" 23,122 99,122 99,76 23,76 23,122" onmouseover="UpdateTooltip(this,0,5)" onfocus="UpdateTooltip(this,0,5)" onclick="return OnShapeClick(0,5);" onkeyup="OnShapeKey(0,5);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Bu DT Property’deki Özelliklere göre oluşturulan CSS dosyası..." origTitle="Bu DT Property’deki Özelliklere göre oluşturulan CSS dosyası..." TITLE="Bu DT Property’deki Özelliklere göre oluşturulan CSS dosyası..."  target="_top" COORDS=" 114,441 266,441 266,396 114,396 114,441" onmouseover="UpdateTooltip(this,0,3)" onfocus="UpdateTooltip(this,0,3)" onclick="return OnShapeClick(0,3);" onkeyup="OnShapeKey(0,3);">
+  <AREA shape="POLYGON" tabindex="1" ALT="Program XML olarak gönderilen Verileri okur ve DataTable’a..." origTitle="Program XML olarak gönderilen Verileri okur ve DataTable’a..." TITLE="Program XML olarak gönderilen Verileri okur ve DataTable’a..."  target="_top" COORDS=" 129,350 251,350 251,304 129,304 129,350" onmouseover="UpdateTooltip(this,0,2)" onfocus="UpdateTooltip(this,0,2)" onclick="return OnShapeClick(0,2);" onkeyup="OnShapeKey(0,2);">
+  <AREA shape="POLYGON" tabindex="1" ALT="START" origTitle="START" TITLE="START"  target="_top" COORDS=" 167,31 213,31 214,31 214,31 215,30 215,30 216,30 216,30 217,30 217,30 218,30 218,30 219,29 219,29 220,29 220,29 221,29 221,28 222,28 222,28 222,27 223,27 223,27 224,26 224,26 224,26 225,25 225,25 225,24 226,24 226,23 226,23 226,22 227,22 227,22 227,21 227,21 227,20 228,20 228,19 228,18 228,18 228,17 228,17 228,16 228,16 228,15 228,15 228,14 228,14 228,13 228,13 228,12 228,12 228,11 227,11 227,10 227,10 227,9 227,9 226,8 226,8 226,7 226,7 225,6 225,6 225,6 224,5 224,5 224,4 223,4 223,4 222,3 222,3 222,3 221,2 221,2 220,2 220,2 219,1 219,1 218,1 218,1 217,1 217,1 216,0 216,0 215,0 215,0 214,0 214,0 213,0 167,0 167,0 166,0 166,0 165,0 165,0 164,0 164,1 163,1 163,1 162,1 162,1 161,1 161,2 160,2 160,2 159,2 159,3 158,3 158,3 158,4 157,4 157,4 156,5 156,5 156,6 155,6 155,6 155,7 154,7 154,8 154,8 154,9 153,9 153,10 153,10 153,11 153,11 153,12 153,12 152,13 152,13 152,14 152,14 152,15 152,15 152,16 152,16 152,17 152,17 152,18 153,18 153,19 153,20 153,20 153,21 153,21 153,22 154,22 154,22 154,23 154,23 155,24 155,24 155,25 156,25 156,26 156,26 157,26 157,27 158,27 158,27 158,28 159,28 159,28 160,29 160,29 161,29 161,29 162,29 162,30 163,30 163,30 164,30 164,30 165,30 165,30 166,30 166,31 167,31 167,31" onmouseover="UpdateTooltip(this,0,1)" onfocus="UpdateTooltip(this,0,1)" onclick="return OnShapeClick(0,1);" onkeyup="OnShapeKey(0,1);">
+</MAP>
+
+
+
+</DIV>
+
+</body>
+</html>
+

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<main>
+  <kisi>
+    <ad>murat</ad>
+    <soyad>baseren</soyad>
+    <tel>1111</tel>
+  </kisi>
+  <kisi>
+    <ad>bilge1</ad>
+    <soyad>adam1</soyad>
+    <tel>2222</tel>
+  </kisi>
+  <kisi>
+    <ad>bilge2</ad>
+    <soyad>adam2</soyad>
+    <tel>3333</tel>
+  </kisi>
+  <kisi>
+    <ad>bilge3</ad>
+    <soyad>adam3</soyad>
+    <tel>4444</tel>
+  </kisi>
+  <kisi>
+    <ad>bilge4</ad>
+    <soyad>adam4</soyad>
+    <tel>5555</tel>
+  </kisi>
+</main>

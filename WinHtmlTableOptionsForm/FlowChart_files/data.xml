@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Basic" NameU="Basic">
+			<Layer IX="0">
+				<Name>Flowchart</Name>
+				<NameUniv>Flowchart</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Layer IX="1">
+				<Name>Connector</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="1" UniqueID="{D30827AD-EA49-4EFD-B11D-E7B40CFE78F9}" Name="Terminator" NameU="Terminator" Master="0">
+					<Text>START</Text>
+					<XForm>
+						<PinX Unit="MM">4.330708661417322</PinX>
+						<PinY Unit="MM">10.826771653543306</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="2" UniqueID="{887AD4F7-94B6-48D4-8393-BAB6EEB0BF1A}" Name="Process" NameU="Process" Master="2">
+					<Text>Program XML olarak gönderilen Verileri okur ve DataTable’a çevirir.</Text>
+					<XForm>
+						<PinX Unit="MM">4.330708661417323</PinX>
+						<PinY Unit="MM">6.791338582677166</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="3" UniqueID="{E00FBC67-5DE3-4EF1-A916-44BE6400C9AE}" Name="Process.3" NameU="Process.3" Master="2">
+					<Text>Bu DT Property’deki Özelliklere göre oluşturulan CSS dosyası ile beraber Gecici HTML dosyaya dönüştürülüyor.</Text>
+					<XForm>
+						<PinX Unit="MM">4.330708661417322</PinX>
+						<PinY Unit="MM">5.610236220472440</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="5" UniqueID="{1AD2AF12-BDA6-4ECD-9B8F-71EBF3F45393}" Name="Process.5" NameU="Process.5" Master="2">
+					<Text>Template Design seçilirse..</Text>
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">9.744094488188974</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="6" UniqueID="{4918CE4F-EA0A-439C-A1EC-3BC84EAD31D5}" Name="Process.6" NameU="Process.6" Master="2">
+					<Text>Custom Design seçilirse..</Text>
+					<XForm>
+						<PinX Unit="MM">6.102362204724408</PinX>
+						<PinY Unit="MM">9.744094488188976</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="7" UniqueID="{33E08099-B184-4475-9E97-64F329A370F3}" Name="Dynamic connector" NameU="Dynamic connector" Master="3">
+					<XForm>
+						<PinX Unit="MM">3.494094488188976</PinX>
+						<PinY Unit="MM">10.334645669291337</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="8" UniqueID="{B176432B-59CC-4AFD-B4ED-ECAD175833F7}" Name="Dynamic connector.8" NameU="Dynamic connector.8" Master="3">
+					<XForm>
+						<PinX Unit="MM">5.216535433070865</PinX>
+						<PinY Unit="MM">10.334645669291337</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="9" UniqueID="{99724A81-03CD-4636-B38C-B2401392B606}" Name="Process.9" NameU="Process.9" Master="2">
+					<Text>Program klasöründeki seçilen Template’e ait XML dosyadan Property’ler okunur ve kontrollere aktarılır..</Text>
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">8.484251968503937</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="10" UniqueID="{2574898D-E5CB-4E31-A9A5-A3662721241B}" Name="Dynamic connector.10" NameU="Dynamic connector.10" Master="3">
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">9.114173228346456</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="11" UniqueID="{4D1BF78C-FE1C-44C0-AB0F-7739A0C6FB2C}" Name="Process.11" NameU="Process.11" Master="2">
+					<Text>Seçili Template Design ayarları ile başlar.
+
+(Program klasöründeki seçilen Template’e ait XML dosyadan Property’ler okunur ve kontrollere aktarılır..)</Text>
+					<XForm>
+						<PinX Unit="MM">6.102362204724408</PinX>
+						<PinY Unit="MM">8.169291338582678</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="12" UniqueID="{D2A03F5D-9041-404C-B029-FC67DE62E81D}" Name="Dynamic connector.12" NameU="Dynamic connector.12" Master="3">
+					<XForm>
+						<PinX Unit="MM">6.102362204724408</PinX>
+						<PinY Unit="MM">9.055118110236220</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="4" UniqueID="{111F5883-28CB-45DD-8B04-F55ED9D2044D}" Name="Dynamic connector.4" NameU="Dynamic connector.4" Master="3">
+					<XForm>
+						<PinX Unit="MM">5.216535433070866</PinX>
+						<PinY Unit="MM">7.381889763779528</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="13" UniqueID="{E408C978-1D7E-40FE-993D-725B9433952D}" Name="Dynamic connector.13" NameU="Dynamic connector.13" Master="3">
+					<XForm>
+						<PinX Unit="MM">3.494094488188976</PinX>
+						<PinY Unit="MM">7.637795275590551</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="14" UniqueID="{389D44E7-9F25-41C1-8F11-5DBCA8C0ABFF}" Name="Dynamic connector.14" NameU="Dynamic connector.14" Master="3">
+					<XForm>
+						<PinX Unit="MM">4.330708661417322</PinX>
+						<PinY Unit="MM">6.200787401574802</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="15" UniqueID="{ABB89288-A11E-4889-97C1-85DC6FFF9B81}" Name="Document" NameU="Document" Master="4">
+					<Text>Stillendirme ekranda gösterilir..</Text>
+					<XForm>
+						<PinX Unit="MM">4.330708661417322</PinX>
+						<PinY Unit="MM">4.429133858267713</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="16" UniqueID="{DA50D593-6A5A-4A23-9842-243CB70A3FC7}" Name="Dynamic connector.16" NameU="Dynamic connector.16" Master="3">
+					<XForm>
+						<PinX Unit="MM">4.330708661417322</PinX>
+						<PinY Unit="MM">5.019685039370076</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="17" UniqueID="{61A32274-CCFC-41F5-84DC-E7342501A647}" Name="Terminator.17" NameU="Terminator.17" Master="0">
+					<Text>END</Text>
+					<XForm>
+						<PinX Unit="MM">4.330708661417322</PinX>
+						<PinY Unit="MM">3.444881889763775</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="18" UniqueID="{CDB8CFA0-92C7-4B97-B801-16E1AE4CBC4B}" Name="Dynamic connector.18" NameU="Dynamic connector.18" Master="3">
+					<XForm>
+						<PinX Unit="MM">4.330708661417322</PinX>
+						<PinY Unit="MM">3.924704724409445</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+			</Shapes>
+		</Page>
+		<Page ID="4" Name="Pro" NameU="Pro">
+			<Layer IX="0">
+				<Name>Flowchart</Name>
+				<NameUniv>Flowchart</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Layer IX="1">
+				<Name>Connector</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="1" UniqueID="{C2030512-C72C-40D0-9360-15C3938C435E}" Name="Terminator" NameU="Terminator" Master="0">
+					<Text>START</Text>
+					<XForm>
+						<PinX Unit="MM">2.952755905511811</PinX>
+						<PinY Unit="MM">11.023622047244093</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="2" UniqueID="{2875E1D8-FB6C-4C12-88FD-C8638BEC8E2D}" Name="Process" NameU="Process" Master="2">
+					<Text>Program XML olarak gönderilen Verileri okur ve DataTable’a çevirir.</Text>
+					<XForm>
+						<PinX Unit="MM">2.952755905511811</PinX>
+						<PinY Unit="MM">4.429133858267714</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="3" UniqueID="{6C95DD8B-9F03-499F-9C70-7376D90D47EC}" Name="Process.3" NameU="Process.3" Master="2">
+					<Text>Bu veri tablosu ile kontrollerden okunan değerlerle oluşturulan CSS dosyası ile beraber Gecici HTML dosyaya dönüştürülüyor.</Text>
+					<XForm>
+						<PinX Unit="MM">2.952755905511813</PinX>
+						<PinY Unit="MM">0.984251968503937</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="4" UniqueID="{809B61DD-7FD5-4F9F-88BA-C36C500FC973}" Name="Process.4" NameU="Process.4" Master="2">
+					<Text>Template Design seçilirse..</Text>
+					<XForm>
+						<PinX Unit="MM">1.377952755905512</PinX>
+						<PinY Unit="MM">7.381889763779528</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="5" UniqueID="{7C0D20BB-4AA5-4565-97BF-23548FC0048A}" Name="Process.6" NameU="Process.6" Master="2">
+					<Text>Custom Design seçilirse..</Text>
+					<XForm>
+						<PinX Unit="MM">4.724409448818896</PinX>
+						<PinY Unit="MM">7.431102362204727</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="8" UniqueID="{9BF5F999-6C2D-496E-A913-B8999831CAEE}" Name="Process.9" NameU="Process.9" Master="2">
+					<Text>Program klasöründeki seçilen Template’e ait XML dosyadan Property’ler okunur ve kontrollere aktarılır..</Text>
+					<XForm>
+						<PinX Unit="MM">1.377952755905512</PinX>
+						<PinY Unit="MM">6.122047244094491</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="9" UniqueID="{6155DC56-A11A-4A40-BCA1-DCF2B75B0BE1}" Name="Dynamic connector.10" NameU="Dynamic connector.10" Master="3">
+					<XForm>
+						<PinX Unit="MM">1.377952755905512</PinX>
+						<PinY Unit="MM">6.751968503937009</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="10" UniqueID="{DF8464B2-4E5A-41B0-B9BA-DF02C41A3E66}" Name="Process.11" NameU="Process.11" Master="2">
+					<Text>Seçili Template Design ayarları ile başlar.
+
+(Program klasöründeki seçilen Template’e ait XML dosyadan Property’ler okunur ve kontrollere aktarılır..)</Text>
+					<XForm>
+						<PinX Unit="MM">4.724409448818896</PinX>
+						<PinY Unit="MM">6.122047244094491</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="11" UniqueID="{021798A1-81FA-4728-9380-D894B141DB46}" Name="Dynamic connector.11" NameU="Dynamic connector.11" Master="3">
+					<XForm>
+						<PinX Unit="MM">4.724409448818896</PinX>
+						<PinY Unit="MM">6.875000000000002</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="12" UniqueID="{3AD2A8CD-436F-4410-92C1-19139CAA5ECF}" Name="Dynamic connector.4" NameU="Dynamic connector.4" Master="3">
+					<XForm>
+						<PinX Unit="MM">3.838582677165354</PinX>
+						<PinY Unit="MM">5.177165354330708</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="13" UniqueID="{82F4D4CF-3C14-4889-8325-2911822BA401}" Name="Dynamic connector.13" NameU="Dynamic connector.13" Master="3">
+					<XForm>
+						<PinX Unit="MM">2.165354330708661</PinX>
+						<PinY Unit="MM">5.275590551181102</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="15" UniqueID="{B82DE469-C28E-44F0-9275-959BB86A5BA0}" Name="Document" NameU="Document" Master="4">
+					<Text>Stillendirme ekranda gösterilir..</Text>
+					<XForm>
+						<PinX Unit="MM">5.216535433070868</PinX>
+						<PinY Unit="MM">0.984251968503937</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="16" UniqueID="{3B224F73-EA5E-462E-A1EB-E6D4DF71B881}" Name="Dynamic connector.16" NameU="Dynamic connector.16" Master="3">
+					<XForm>
+						<PinX Unit="MM">4.330708661417326</PinX>
+						<PinY Unit="MM">0.984251968503937</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="17" UniqueID="{DFDDAB9A-BD44-4B6F-A4FE-6C994F5D81C4}" Name="Terminator.17" NameU="Terminator.17" Master="0">
+					<Text>END</Text>
+					<XForm>
+						<PinX Unit="MM">6.791338582677167</PinX>
+						<PinY Unit="MM">0.984251968503937</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="18" UniqueID="{70E6492E-5C8D-4A67-A1A6-88374E34DF10}" Name="Dynamic connector.18" NameU="Dynamic connector.18" Master="3">
+					<XForm>
+						<PinX Unit="MM">6.003937007874018</PinX>
+						<PinY Unit="MM">0.984251968503935</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="19" UniqueID="{72B58FC5-C1BA-445E-8554-B4EB34FF6D9D}" Name="Process.19" NameU="Process.19" Master="2">
+					<Text>Program “DataSource” adlı klasörde bulunan XML veri tablolarının isimlerini okur ve “Tablolar” menü sekmesi altına bunları ekler..</Text>
+					<XForm>
+						<PinX Unit="MM">2.952755905511811</PinX>
+						<PinY Unit="MM">10.039370078740156</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="20" UniqueID="{C4A34AC5-8BAE-4FCD-9BC1-364A0F2C6FE2}" Name="Process.20" NameU="Process.20" Master="2">
+					<Text>“Tablolar” menü sekmesi altındaki tablolardan biri seçilir.. Yapılan seçim ile kontrollerden okunan property’lere göre işlem devam eder.</Text>
+					<XForm>
+						<PinX Unit="MM">2.952755905511810</PinX>
+						<PinY Unit="MM">8.759842519685037</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="6" UniqueID="{17A9E188-EE7E-4844-9A65-F758FB154636}" Name="Dynamic connector" NameU="Dynamic connector" Master="3">
+					<XForm>
+						<PinX Unit="MM">2.952755905511811</PinX>
+						<PinY Unit="MM">10.629921259842519</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="7" UniqueID="{1BC80A39-213A-47B9-B079-FBB56A9BFE0E}" Name="Dynamic connector.7" NameU="Dynamic connector.7" Master="3">
+					<XForm>
+						<PinX Unit="MM">2.952755905511811</PinX>
+						<PinY Unit="MM">9.350393700787400</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="21" UniqueID="{CE34D4AA-DF1A-43B5-89EB-B95F324CF697}" Name="Dynamic connector.21" NameU="Dynamic connector.21" Master="3">
+					<XForm>
+						<PinX Unit="MM">2.165354330708661</PinX>
+						<PinY Unit="MM">8.070866141732282</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="22" UniqueID="{543A1A5D-BD26-4B48-AFF6-79CFC2E05454}" Name="Dynamic connector.22" NameU="Dynamic connector.22" Master="3">
+					<XForm>
+						<PinX Unit="MM">3.838582677165353</PinX>
+						<PinY Unit="MM">8.095472440944882</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="14" UniqueID="{E302FBCA-67CB-4E3A-8C79-09BE03877C60}" Name="Process.14" NameU="Process.14" Master="2">
+					<Text>Seçilen tablo için property değerleri “SourceStyle” adlı klasöre tablo ismi ile XML olarak kaydedilir.</Text>
+					<XForm>
+						<PinX Unit="MM">2.952755905511809</PinX>
+						<PinY Unit="MM">2.066929133858270</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="23" UniqueID="{B0A8FC28-0D7C-4C9C-9121-43A600BDCB1A}" Name="Process.23" NameU="Process.23" Master="2">
+					<Text>Eğer seçilen tablonun bir stil XML dosyası yoksa o anki kontrollerdeki değerlerden bir XML style dosyası olusturulur ve “SourceStyle” klasörüne kaydedilir.</Text>
+					<XForm>
+						<PinX Unit="MM">2.952755905511810</PinX>
+						<PinY Unit="MM">3.248031496062992</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="24" UniqueID="{CD06B30F-6EFF-4ECB-AEB5-3C1530187DC8}" Name="Dynamic connector.24" NameU="Dynamic connector.24" Master="3">
+					<XForm>
+						<PinX Unit="MM">2.952755905511811</PinX>
+						<PinY Unit="MM">3.937007874015746</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="25" UniqueID="{041066D8-5AE6-4C3B-8A46-A25A423A196A}" Name="Dynamic connector.25" NameU="Dynamic connector.25" Master="3">
+					<XForm>
+						<PinX Unit="MM">2.952755905511810</PinX>
+						<PinY Unit="MM">2.559055118110237</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="26" UniqueID="{982776CE-9DBA-4D25-84A0-537A68E1C717}" Name="Dynamic connector.26" NameU="Dynamic connector.26" Master="3">
+					<XForm>
+						<PinX Unit="MM">2.952755905511811</PinX>
+						<PinY Unit="MM">1.525590551181104</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

@@ -1,0 +1,12 @@
+Programa SQL database'den XML Table yaratma uygulamasý eklenecek ve 
+kullanýcýnýn kendi DataTable 'lar oluþturmasý saðlanacak..
+
+Bu Datatable'lar ana programýn klasörünün altýnda bulunan bir klasörde
+toplanacak..(XML file'lar)
+
+Program içinde bir listbox olacak ve bu klasörü dinleyecek..Klasöre dosya 
+eklendiðinde listbox'a gelcek.
+
+Listbox da seçilen datatable için design yapýlacak ve kayýt iþlemi gerçekleþecek
+
+Listbox'a datatable ekleme ve silebilme yaýlacak..
